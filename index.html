@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PTB BLOG</title>
+    <link rel="stylesheet" href="/dist/output.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+   
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Hamburg</title>
+        <link rel="stylesheet" href="style.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script src="https://cdn.tailwindcss.com"></script>
+        
+    </head>
+    <body class="bg-gray-100">
+    
+        <!-- Nav -->
+
+        <nav class="flex justify-between bg-white lg:flex lg:gap-[900px] p-4 lg:px-20 items-center lg:py-8">
+    
+            <div class="italic text-xl lg:text-2xl font-bold text-gray-600">
+                <h1 class="flex italic">
+                  News <span class="text-red-700">404</span>
+                </h1>
+              </div>
+    
+            <div id="menu" class=" lg:text-xl lg:flex gap-3 bg-white lg:static absolute left-0 min-h-[50vh] lg:min-h-fit w-full px-5 top-[-100%]">
+                <ul class=" duration-300 flex flex-col lg:flex-row lg:gap-[3.5vw] gap-8 py-14 lg:py-0 text-center">
+                    <li class="hover:text-green-300 ease-in-out hover:scale-110 transition-transform duration-900"><a href="#">Home</a></li>
+                    <li class="hover:text-green-300 ease-in-out hover:scale-110 transition-transform duration-900"><a href="#">Latest</a></li>
+                    <li class="hover:text-green-300 ease-in-out hover:scale-110 transition-transform duration-900"><a href="#">Sports</a></li>
+                    <li class="hover:text-green-300 ease-in-out hover:scale-110 transition-transform duration-900"><a href="#">Politics</a></li>
+                    <li class="hover:text-green-300 ease-in-out hover:scale-110 transition-transform duration-900"><a href="#">Fashion</a></li>
+                    <li class="hover:text-green-300 ease-in-out hover:scale-110 transition-transform duration-900"><a href="#">Business</a></li>
+                </ul>
+            </div>
+    
+            <div class="lg:hidden flex">
+                <button><ion-icon onclick="menuHam(this)" name="menu-outline" class=" text-3xl lg:text-5xl cursor-pointer"></ion-icon></button>
+            </div>
+        </nav><br>
+
+        <!-- CONTENT -->
+
+
+        <div id="happen" class=" lg:mt-0 "><h1 class=" lg:text-3xl font-semibold px-2 lg:py-3 lg:px-20 text-red-700 ">Latest News</h1></div>
+
+            <div id="show"  class=" flex-col flex lg:grid grid-cols-2 lg:g gap-16 lg:px-20"></div> 
+
+            <!-- CONTENT END -->
+
+        
+
+
+            
+ <!--FOOTER-->
+
+
+        <footer class="bg-gray-900 text-gray-300 px-4 sm:px-6 py-10 mt-10">
+            <div class="max-w-6xl mx-auto flex flex-col lg:flex-row justify-between items-start gap-8">
+
+            <!-- Logo/Brand -->
+            <div>
+                <p class="text-2xl font-bold text-[#4b5563]">NEWS<em class="text-[#b91c1c]">@404</em></p>
+            </div>
+
+            <!-- Navigation Links -->
+            <ul class="flex flex-col sm:flex-row gap-4 text-sm text-center sm:text-left">
+                <li class="hover:text-green-300"><a href="#">Home</a></li>
+                <li class="hover:text-green-300"><a href="#">Latest</a></li>
+                <li class="hover:text-green-300"><a href="#">Sports</a></li>
+                <li class="hover:text-green-300"><a href="#">Politics</a></li>
+                <li class="hover:text-green-300"><a href="#">Fashion</a></li>
+                <li class="hover:text-green-300"><a href="#">Business</a></li>
+            </ul>
+            </div>
+
+            <!-- Divider -->
+            <div class="border-t border-gray-700 my-6"></div>
+
+            <!-- Social & Legal -->
+            <div
+            class="max-w-6xl mx-auto flex flex-col lg:flex-row justify-between items-center gap-6 text-sm text-center sm:text-left">
+
+            <!-- Social Media Icons -->
+            <div class="flex justify-center lg:justify-start gap-4 w-full lg:w-auto">
+                <a href="https://www.facebook.com/share/15AmyiozrQ/?mibextid=wwXIfr" target="_blank" class="hover:text-white"><ion-icon name="logo-facebook" class="text-xl"></ion-icon></a>
+                <a href="https://x.com/pero4l?s=21" class="hover:text-white"><ion-icon name="logo-twitter" target="_blank" class="text-xl"></ion-icon></a>
+                <a href="https://www.instagram.com/dev_ptb?igsh=aDV4OXJhbzVsNW5z&utm_source=qr" class="hover:text-white"><ion-icon name="logo-instagram" target="_blank" class="text-xl"></ion-icon></a>
+                <a href="https://www.linkedin.com/in/peter-idiku-911178338?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" class="hover:text-white"><ion-icon name="logo-linkedin" class="text-xl"></ion-icon></a>
+                <a href="https://github.com/Pero4l" class="hover:text-white"><ion-icon name="logo-github" class="text-xl"></ion-icon></a>
+            </div>
+
+            <!-- Legal Info -->
+            <div class="text-center lg:text-right w-full lg:w-auto">
+                <p>© 2025 NEWS@404. All rights reserved.</p>
+                <p>Designed by PTB <a href="https://x.com/pero4l?s=21" target="_blank" class="hover:underline">404</a></p>
+            </div>
+            </div>
+        </footer>
+        <!-- Footer ends here -->
+            
+
+        
+    
+        <script>
+
+            // FOR THE HAMBURGER BUTTON
+    
+            function menuHam(e){
+    
+                e.name = e.name === 'menu-outline' ? 'close-outline' : 'menu-outline';
+                
+                let navMenu = document.getElementById('menu');
+                let content = document.getElementById('happen')
+    
+                navMenu.classList.toggle('top-[9%]');
+                navMenu.classList.toggle('top-[-100]');
+                content.classList.toggle('mt-96')
+               
+                
+            }
+
+
+            // FOR THE NEWS CONTENT
+
+            fetch('https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=2bb108d8f0fe4f27be72cea94822d0fc')
+        .then(res => res.json())
+        .then(data => {
+            console.log(data);
+            let articles = data.articles
+
+            let news = document.getElementById('show');
+            articles.forEach((article) => {
+                let display = document.createElement('div')
+                display.innerHTML = ` 
+                <div></div>
+                <div class="">
+            
+                <img class="w-fit lg:w-[850px] p-2 lg:p-0" src=" ${article.urlToImage} " alt="">
+                <p class="w-fit p-2 lg:p-0 lg:w-[850px]"> <em class="font-semibold lg:text-2xl">Title:  <span> ${article.title} </span></em> 
+                    
+                    <br> <br>${article.description} </p>
+                     <br>
+                     
+                     <div class="px-2 lg:p-0">
+                        <button class="bg-green-500 w-full p-1 lg:px-2 lg:w-fit ease-in-out hover:scale-110 transition-transform duration-900"><a class=" lg:text-2xl" href="${article.url}" target="_blank" ><em>Read more</em></a></button>
+                     </div>
+                </div>
+
+                `;
+
+                news.appendChild(display)
+            })
+            
+        })
+    
+        </script>
+    </body>
+    </html>
+    
+    
+    
+
+
+
+    
+</body>
+</html>
